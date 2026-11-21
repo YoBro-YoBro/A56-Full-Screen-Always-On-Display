@@ -1,6 +1,6 @@
 # Samsung Galaxy A56 Flagship AOD Enabler
 
-A systemless **Magisk / KernelSU / APatch** root module engineered specifically for the **Samsung Galaxy A56**. Enables Flagship level Fullscreen Aod 
+A systemless **Magisk / KernelSU / APatch** root module engineered specifically for the **Samsung Galaxy A56**. This module unlocks Samsung flagship Always On Display (AOD) features—most notably **Full-Screen Wallpaper AOD** and **One UI 7–9.5 smooth Lockscreen-to-AOD clock transitions**—that Samsung artificially restricts to its Galaxy S-series flagships.
 
 ---
 
@@ -41,17 +41,19 @@ At every boot, the module's `post-fs-data.sh` script locates the active `floatin
 * **Supported Device:** Samsung Galaxy A56 (All regional variants, including `SM-A566B` and `SM-A566E`)
 * **Supported Firmware:** One UI 7 to One UI 9.5 (Android 15+)
 * **Root Environment:** Magisk (v26+), KernelSU, or APatch
+* **Mount System Requirement:** Requires **OverlayFS** or **Magic Mount** (`Magic-Mountfs`) support enabled in your root manager/kernel so the patched `floating_feature.xml` can be systemlessly mounted over `/system` or `/vendor` (if you are using KernelSU Next / APatch without built-in mounting, install a Meta-OverlayFS or Magic Mount module first).
 
 ---
 
 ## Installation Guide
 
-1. Download the latest release `.zip` archive from the **Releases** page.
-2. Open your root manager (**Magisk**, **KernelSU**, or **APatch**).
-3. Navigate to the **Modules** tab and tap **Install from storage**.
-4. Select the downloaded ZIP archive and wait for the installation to complete.
-5. **Reboot** your device.
-6. Go to **Settings > Lock screen and AOD > Always On Display** to customize your newly unlocked Full-Screen Wallpaper and transition settings.
+1. Ensure **OverlayFS** or **Magic Mount** is supported and active in your root setup.
+2. Download the latest release `.zip` archive from the **Releases** page.
+3. Open your root manager (**Magisk**, **KernelSU**, or **APatch**).
+4. Navigate to the **Modules** tab and tap **Install from storage**.
+5. Select the downloaded ZIP archive and wait for the installation to complete.
+6. **Reboot** your device.
+7. Go to **Settings > Lock screen and AOD > Always On Display** to customize your newly unlocked Full-Screen Wallpaper and transition settings.
 
 ---
 
