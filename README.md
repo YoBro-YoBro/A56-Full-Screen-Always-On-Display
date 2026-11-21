@@ -1,6 +1,6 @@
 # Samsung Galaxy A56 Flagship AOD Enabler
 
-A systemless **Magisk / KernelSU / APatch** root module engineered specifically for the **Samsung Galaxy A56**. This module unlocks Samsung flagship Always On Display (AOD) features—most notably **Full-Screen Wallpaper AOD** and **One UI 7–9.5 smooth Lockscreen-to-AOD clock transitions**—that Samsung artificially restricts to its Galaxy S-series flagships.
+A systemless **Magisk / KernelSU / APatch** root module engineered specifically for the **Samsung Galaxy A56**. Enables Flagship level Fullscreen Aod 
 
 ---
 
